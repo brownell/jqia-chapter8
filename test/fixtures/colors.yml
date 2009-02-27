@@ -1,0 +1,66 @@
+# Available colors for each boot
+
+1:
+  boot_id: 7141832
+  color_code: bk
+  name: Black Oil-tanned
+
+2:
+  boot_id: 7141832
+  color_code: br
+  name: Black Polishable
+
+3:
+  boot_id: 7173656
+  color_code: bk
+  name: Black
+
+4:
+  boot_id: 7173656
+  color_code: br
+  name: Crazy Horse
+
+5:
+  boot_id: 7141922
+  color_code: br
+  name: Crazy Horse
+
+6:
+  boot_id: 7141922
+  color_code: bk
+  name: Black
+
+7:
+  boot_id: 7177382
+  color_code: hy
+  name: Honey
+
+8:
+  boot_id: 7177382
+  color_code: sd
+  name: Peanut
+
+9:
+  boot_id: 7141730
+  color_code: rw
+  name: Brown
+
+10:
+  boot_id: 7141730
+  color_code: hy
+  name: Honey
+
+11:
+  boot_id: 7141833
+  color_code: br
+  name: Russet
+
+12:
+  boot_id: 7257914
+  color_code:  br
+  name: Brown
+
+13:
+  boot_id: 7269643
+  color_code: bk
+  name: Black

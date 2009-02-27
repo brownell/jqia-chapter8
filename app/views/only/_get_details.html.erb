@@ -1,0 +1,26 @@
+<div>
+  <label>Item name:</label> <%= boot.name  %><br />
+</div>
+<div>
+  <label>SKU:</label> <%= boot.sku  %>
+</div>
+<div>
+  <label>Height:</label> <%= boot.height  %>
+</div>
+<div>
+  <label>Colors:</label> <%= boot.color_string  %>
+</div>
+<div>
+  <label>Lining:</label> <%= boot.lining  %>
+</div>
+<div>
+  <label>Today's price:</label> <%= boot.price  %>
+</div>
+<div>
+  <label>Features:</label> <%= boot.features  %>
+</div>
+<div align="center">
+  <%  if  boot.sku != '---'  then %>
+    <%= image_tag "photos/#{ boot.sku }.png" %>
+  <% end %>
+</div>

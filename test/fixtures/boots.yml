@@ -1,0 +1,89 @@
+# Features of the boots
+
+7141832:
+  id: 7141832
+  style: 7141832
+  name: Chippewa 17-inch Engineer Boot
+  sku: 7141832
+  height: 17 inches
+  lining: Leather
+  #colors: Black <abbr>Oil-tanned</abbr>, Black Polishable
+  price: $187.00
+  features: <abbr>Oil-tanned</abbr> or polishable <abbr>full-grain</abbr> leather uppers. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>. Padded insole. Steel safety toe.
+
+7173656:
+  id: 7173656
+  style: 7173656
+  name: Chippewa 11-inch Engineer Boot
+  sku: 7173656
+  height: 11 inches
+  lining: None
+  #colors: Black, Crazy Horse
+  price: $167.00
+  features: <abbr>Oil-tanned</abbr> <abbr>full-grain</abbr> leather uppers. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>. Padded insole. Steel safety toe. Texon&reg; insole.
+
+7141922:
+  id: 7141922
+  style: 7141922
+  name: Chippewa Harness Boot
+  sku: 7141922
+  height: 13 inches
+  lining: 13 inches
+  #colors: Black, Crazy Horse
+  price: $187.00
+  features: <abbr>Full-grain</abbr> leather uppers. Leather lining. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>.
+
+7177382:
+  id: 7177382
+  style: 7177382
+  name: Caterpillar Tradesman Work Boot
+  sku: 7177382
+  height: 6 inches
+  lining: Leather
+  #colors: Honey, Peanut
+  price: $87.00
+  features: <abbr>Full-grain</abbr> <abbr>oil-tanned</abbr> leather. Nylon mesh lining. Ortholite sock liner. EVA midsole. T84V Rubberlon outsole.
+
+7141730:
+  id: 7141730
+  style: 7141730
+  name: Danner Foreman Pro Work Boot
+  sku: 7141730
+  height: 10 inches
+  lining: Leather
+  #colors: Honey, Brown
+  price: $287.00
+  features: Alkali-resistant <abbr>full-grain</abbr> leather. <abbr>Cambrelle</abbr> nylon lining. Fiberglass shank. <abbr>Vibram</abbr> 4014 Cristy sole. <abbr>Stitch-down</abbr> construction.
+
+7141833:
+  id: 7141833
+  style: 7141833
+  name: Chippewa 17-inch Snakeproof Boot
+  sku: 7141833
+  height: 17 inches
+  lining: Leather
+  #colors: Russet
+  price: $147.00
+  features: <abbr>Full-grain</abbr> leather foot. 1000 Denier <abbr>Cordura</abbr> Viper cloth shaft. <abbr>Goodyear welt</abbr>. Leather Lining. Body Cushion Insole. <abbr>Vibram</abbr> Robinson Outsole.
+
+7257914:
+  id: 7257914
+  style: 7257914
+  name: Danner Grouse GTX Boot
+  sku: 7257914
+  height: 8 inches
+  lining: <abbr>Gore-Tex</abbr>
+  #colors: Brown
+  price: $207.00
+  features: <abbr>Full-grain</abbr> leather foot. 1000 Denier <abbr>Cordura</abbr> Viper cloth shaft. <abbr>Gore-Tex</abbr> lining. Stich-down construction.
+
+7269643:
+  id: 7269643
+  style: 7269643
+  name: Caterpillar Logger Boot
+  sku: 7269643
+  height: 8 inches
+  lining: <abbr>Cambrelle</abbr>
+  #colors: Black
+  price: $157.00
+  features: <abbr>Full-grain</abbr> leather. <abbr>Cambrelle</abbr>&reg; lining. Steel safety toe. Electrical hazard protection. Poliyou&reg; cushion insole. Rubber lug outsole.

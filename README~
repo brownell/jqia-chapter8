@@ -1,0 +1,21 @@
+
+The book jQuery in Action by Bear Bibeault and Yehuda Katz, has a lot of terrific code examples in the form of labs. Most are standalone, but those that relate to AJAX need a server. The code downloadable from the book's Web site (http://www.manning.com/bibeault) provides JSP pages and some PHP pages for this, but I wanted to use Rails.
+
+This project is a Rails backend for the HTML files in Chapter 8. The goal was to make as few changes to the provided HTML and javascript files as possible. The resulting app, therefore is not RESTful and does not use jRails.
+
+The files from the book are all located in the appropriate places for a Rails app e.g. javascript files are in /public/javascripts. There in only one controller called 'only' that contains all the actions used by the HTML files. The modified HTML files are in the 'only' view directory.
+
+I tried to limit changes to the downloaded files to only those that were absolutely required to be compatible with a Rails app. For reference the original files downloaded from the book site are contained in /doc/JQIA FILES.
+
+The app is only intended to be run in development mode.  The default page is an index page that allows you to link to the example pages from the book (modified).
+
+To use this:
+
+- get it on your machine as a Rails project
+- create a MySQL database called jqia_dev
+- run the migrations
+- load the test fixtures into the development database
+- start the app
+
+Horace Brownell Chalstrom 2009 released under the Creative Commons Attribution-Share Alike 3.0 United States license.
+

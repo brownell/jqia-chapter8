@@ -1,0 +1,37 @@
+# Sizes.  All sizes are available
+# for all styles and colors
+
+1:
+  size_code: 9d
+  name: 9 D
+
+2:
+  size_code: 9ee
+  name: 9 EE
+
+3:
+  size_code: 95d
+  name: 9\u00BD D
+
+4:
+  size_code: 95ee
+  name: 9\u00BD EE
+
+5:
+  size_code: 95eee
+  name: 9\u00BD EEE
+
+6:
+  size_code: 10ee
+  name: 10 EE
+
+7:
+  size_code: 10eee
+  name: 10 EEE
+
+8:
+  size_code: 13e
+  name: 13 E
+
+
+
