@@ -4,12 +4,11 @@ ActionController::Routing::Routes.draw do |map|
   #
   #This is NOT a RESTful app!!!!!
   #
-  map.connect 'getDetails', :controller => 'only', :action => 'get_details'
-  map.connect 'getColors', :controller => 'only', :action => 'get_colors'
-  map.connect 'getSizes', :controller => 'only', :action => 'get_sizes'
-  map.connect 'reflectData', :controller => 'only', :action => 'reflect_data'
-  map.connect 'returnError', :controller => 'only', :action => 'return_error'
-  map.connect 'getTerm', :controller => 'only', :action => 'get_term'
+  legacy_urls = %w[ getDetails getColors getSizes reflectData returnError getTerm ]
+
+  legacy_urls.each do |url|
+    map.connect url, :controller => 'only', :action => url.underscore
+  end
 
   map.connect ':action', :controller => 'only'
 

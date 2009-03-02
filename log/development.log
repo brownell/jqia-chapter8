@@ -892,3 +892,477 @@ ActionController::RoutingError (No route matches "/stylesheets/backg.jpg" with {
     script/server:3
 
 Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing OnlyController#boot_closet_1 (for 127.0.0.1 at 2009-03-02 10:55:41) [GET]
+  [4;36;1mSQL (24.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/boot.closet.1.html
+Completed in 3ms (View: 2, DB: 25) | 200 OK [http://localhost/boot_closet_1]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:55:42) [POST]
+  Parameters: {"style"=>""}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (21.2ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+Rendered only/_get_details (0.3ms)
+Completed in 31ms (View: 2, DB: 21) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#boot_closet_1 (for 127.0.0.1 at 2009-03-02 10:55:57) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/boot.closet.1.html
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/boot_closet_1]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:55:57) [POST]
+  Parameters: {"style"=>""}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+Rendered only/_get_details (0.3ms)
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:55:59) [POST]
+  Parameters: {"style"=>"7141832"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+  [4;35;1mBoot Load (29.3ms)[0m   [0mSELECT * FROM `boots` WHERE (`boots`.`id` = 7141832) [0m
+  [4;36;1mColor Load (0.7ms)[0m   [0;1mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7141832) [0m
+  [4;35;1mColor Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `colors`[0m
+Rendered only/_get_details (7.6ms)
+Completed in 44ms (View: 8, DB: 32) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:02) [POST]
+  Parameters: {"style"=>"7141922"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+  [4;35;1mBoot Load (0.2ms)[0m   [0mSELECT * FROM `boots` WHERE (`boots`.`id` = 7141922) [0m
+  [4;36;1mColor Load (0.2ms)[0m   [0;1mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7141922) [0m
+  [4;35;1mColor Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `colors`[0m
+Rendered only/_get_details (47.7ms)
+Completed in 56ms (View: 47, DB: 3) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#boot_closet_2 (for 127.0.0.1 at 2009-03-02 10:56:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/boot.closet.2.html
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/boot_closet_2]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:08) [POST]
+  Parameters: {"style"=>""}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+Rendered only/_get_details (0.3ms)
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:10) [POST]
+  Parameters: {"style"=>"7173656"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+  [4;36;1mBoot Load (0.2ms)[0m   [0;1mSELECT * FROM `boots` WHERE (`boots`.`id` = 7173656) [0m
+  [4;35;1mColor Load (0.2ms)[0m   [0mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7173656) [0m
+  [4;36;1mColor Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `colors`[0m
+Rendered only/_get_details (6.9ms)
+Completed in 15ms (View: 8, DB: 2) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_colors (for 127.0.0.1 at 2009-03-02 10:56:10) [GET]
+  Parameters: {"style"=>"7173656"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+  [4;36;1mBoot Load (0.1ms)[0m   [0;1mSELECT * FROM `boots` WHERE (`boots`.`id` = 7173656) [0m
+  [4;35;1mColor Load (0.1ms)[0m   [0mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7173656) [0m
+  [4;36;1mColor Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `colors`[0m
+Completed in 12ms (View: 0, DB: 2) | 200 OK [http://localhost/getColors?style=7173656]
+
+
+Processing OnlyController#get_sizes (for 127.0.0.1 at 2009-03-02 10:56:13) [GET]
+  Parameters: {"color"=>"br", "style"=>"7173656"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSize Load (17.7ms)[0m   [0mSELECT * FROM `sizes` [0m
+  [4;36;1mSize Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `sizes`[0m
+Completed in 25ms (View: 1, DB: 19) | 200 OK [http://localhost/getSizes?style=7173656&color=br]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:20) [POST]
+  Parameters: {"style"=>"7257914"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+  [4;36;1mBoot Load (0.2ms)[0m   [0;1mSELECT * FROM `boots` WHERE (`boots`.`id` = 7257914) [0m
+  [4;35;1mColor Load (0.1ms)[0m   [0mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7257914) [0m
+  [4;36;1mColor Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `colors`[0m
+Rendered only/_get_details (6.0ms)
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_colors (for 127.0.0.1 at 2009-03-02 10:56:20) [GET]
+  Parameters: {"style"=>"7257914"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+  [4;36;1mBoot Load (0.1ms)[0m   [0;1mSELECT * FROM `boots` WHERE (`boots`.`id` = 7257914) [0m
+  [4;35;1mColor Load (0.1ms)[0m   [0mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7257914) [0m
+  [4;36;1mColor Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `colors`[0m
+Completed in 12ms (View: 0, DB: 2) | 200 OK [http://localhost/getColors?style=7257914]
+
+
+Processing OnlyController#get_sizes (for 127.0.0.1 at 2009-03-02 10:56:22) [GET]
+  Parameters: {"color"=>"bk", "style"=>"7257914"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSize Load (0.1ms)[0m   [0mSELECT * FROM `sizes` [0m
+  [4;36;1mSize Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `sizes`[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/getSizes?style=7257914&color=bk]
+
+
+Processing OnlyController#boot_closet_3 (for 127.0.0.1 at 2009-03-02 10:56:27) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/boot.closet.3.html
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/boot_closet_3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-02 10:56:27) [GET]
+
+
+ActionController::RoutingError (No route matches "/boot.closet.branding.png" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:27) [POST]
+  Parameters: {"style"=>""}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBoot Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `boots`[0m
+Rendered only/_get_details (0.3ms)
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_details (for 127.0.0.1 at 2009-03-02 10:56:30) [POST]
+  Parameters: {"style"=>"7177382"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+  [4;35;1mBoot Load (0.2ms)[0m   [0mSELECT * FROM `boots` WHERE (`boots`.`id` = 7177382) [0m
+  [4;36;1mColor Load (0.2ms)[0m   [0;1mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7177382) [0m
+  [4;35;1mColor Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `colors`[0m
+Rendered only/_get_details (7.3ms)
+Completed in 16ms (View: 8, DB: 2) | 200 OK [http://localhost/getDetails]
+
+
+Processing OnlyController#get_colors (for 127.0.0.1 at 2009-03-02 10:56:30) [GET]
+  Parameters: {"style"=>"7177382"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBoot Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `boots`[0m
+  [4;35;1mBoot Load (0.1ms)[0m   [0mSELECT * FROM `boots` WHERE (`boots`.`id` = 7177382) [0m
+  [4;36;1mColor Load (0.1ms)[0m   [0;1mSELECT * FROM `colors` WHERE (`colors`.boot_id = 7177382) [0m
+  [4;35;1mColor Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `colors`[0m
+Completed in 12ms (View: 0, DB: 2) | 200 OK [http://localhost/getColors?style=7177382]
+
+
+Processing OnlyController#get_sizes (for 127.0.0.1 at 2009-03-02 10:56:32) [GET]
+  Parameters: {"color"=>"hy", "style"=>"7177382"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSize Load (0.1ms)[0m   [0;1mSELECT * FROM `sizes` [0m
+  [4;35;1mSize Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `sizes`[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/getSizes?style=7177382&color=hy]
+
+
+Processing OnlyController#get_term (for 127.0.0.1 at 2009-03-02 10:56:35) [GET]
+  Parameters: {"term"=>"Full-grain"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTerm Columns (28.2ms)[0m   [0;1mSHOW FIELDS FROM `terms`[0m
+  [4;35;1mTerm Load (0.2ms)[0m   [0mSELECT * FROM `terms` WHERE (`terms`.`term_string` = 'Full-grain') LIMIT 1[0m
+Completed in 34ms (View: 0, DB: 29) | 200 OK [http://localhost/getTerm?term=Full-grain]
+
+
+Processing OnlyController#get_html (for 127.0.0.1 at 2009-03-02 10:56:40) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/$.get.html
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/get_html]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-02 10:56:40) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/backg.jpg" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing OnlyController#reflect_data (for 127.0.0.1 at 2009-03-02 10:56:41) [GET]
+  Parameters: {"a"=>"1", "b"=>"2", "c"=>"3"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/reflect_data
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/reflectData?a=1&b=2&c=3]
+
+
+Processing OnlyController#listing_86 (for 127.0.0.1 at 2009-03-02 10:56:45) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/listing.8.6.html
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/listing_86]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-02 10:56:45) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/backg.jpg" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing OnlyController#reflect_data (for 127.0.0.1 at 2009-03-02 10:56:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/reflect_data
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/reflectData]
+
+
+Processing OnlyController#reflect_data (for 127.0.0.1 at 2009-03-02 10:56:48) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/reflect_data
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/reflectData]
+
+
+Processing OnlyController#return_error (for 127.0.0.1 at 2009-03-02 10:56:49) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 2ms (View: 0, DB: 0) | 555 [http://localhost/returnError]
+
+
+Processing OnlyController#return_error (for 127.0.0.1 at 2009-03-02 10:56:49) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 2ms (View: 0, DB: 0) | 555 [http://localhost/returnError]
+
+
+Processing OnlyController#return_error (for 127.0.0.1 at 2009-03-02 10:56:49) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 6ms (View: 0, DB: 0) | 555 [http://localhost/returnError]
+
+
+Processing OnlyController#return_error (for 127.0.0.1 at 2009-03-02 10:56:49) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 2ms (View: 0, DB: 0) | 555 [http://localhost/returnError]
+
+
+Processing OnlyController#reflect_data (for 127.0.0.1 at 2009-03-02 10:56:50) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/reflect_data
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/reflectData]
+
+
+Processing OnlyController#reflect_data (for 127.0.0.1 at 2009-03-02 10:56:51) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/reflect_data
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/reflectData]
+
+
+Processing OnlyController#serialize (for 127.0.0.1 at 2009-03-02 10:56:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering only/serialize.html
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/serialize]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-02 10:56:54) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/backg.jpg" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)

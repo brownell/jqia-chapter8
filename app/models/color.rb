@@ -1,3 +1,3 @@
 class Color < ActiveRecord::Base
-  has_one :boot
+  belongs_to :boot
 end
